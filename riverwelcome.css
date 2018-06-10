@@ -1,0 +1,31 @@
+* {
+	margin:3%,3%,3%,;
+	padding:0;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url("PixelMplus12-Regular.ttf");
+}
+
+body {
+	background-image:url("glittersilver.gif");
+}
+div { color:#FF69B4;
+	text-align:center;
+	font-family:'Myfont',"san-serif";
+}
+
+h1 {font-size:75pt;}
+h2{font-size:20pt;}
+
+div.image {
+text-align:center;
+}
+img:hover{
+position:relative;
+top:3px;
+left:3px;
+filter:alpha(opacity=80);
+opacity:0.8;
+}
