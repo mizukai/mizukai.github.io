@@ -18,6 +18,10 @@ div { color:#FF69B4;
 
 h1 {font-size:75pt;}
 h2{font-size:20pt;}
+h2:hover{
+	background-color:#0f0
+}
+
 
 div.image {
 text-align:center;
