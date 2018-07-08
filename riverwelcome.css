@@ -1,7 +1,3 @@
-* {
-	margin:3%,3%,3%,;
-	padding:0;
-}
 
 @font-face {
   font-family: 'MyFont';
@@ -10,31 +6,53 @@
 
 body {
 	background-image:url("glittersilver.gif");
+	margin:0;
+	padding:10pt;
 }
 div { color:#FF69B4;
 	text-align:center;
 	font-family:'Myfont',"san-serif";
 }
 
-h1 {font-size:75pt;}
+h1 {font-size:75pt;
+	width:max-content;
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	
+	}
 h2{font-size:20pt;
 background-color:transparent;
 width:max-content;
 display:inline-block;
-margin-left:auto;
-margin-right:auto;
+margin-right: auto;//ここで中央寄せを指定する。
+  margin-left : auto;
+
+
+
 }
 h2:hover{
 	color:#fff;
-	background-color:#000;
+	background-color:#FF69B4;
 
 
 }
-div.space 
-p{ font-size:x-large;
+#sample 
+{display:inline-block;
+background-color:transparent;
+width:100%; }
+
+marquee{ 
+color:#fff;
+font-size:15pt;
+display:inline-block;
+background-color:#FF69B4;
 }
+
+
 div.image {
 text-align:center;
+margin-top:10%;
 }
 img:hover{
 position:relative;
