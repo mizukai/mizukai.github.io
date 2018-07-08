@@ -42,17 +42,73 @@ h2:hover{
 background-color:transparent;
 width:100%; }
 
-marquee{ 
-color:#fff;
-font-size:15pt;
-display:inline-block;
-background-color:#FF69B4;
+.marquee p:after {
+content:"";
+white-space:nowrap;
+padding-right:50px;
+}
+
+.marquee {
+width:100%;
+padding:4pt 0;
+overflow:hidden;
+position:relative;
+background : linear-gradient(180deg,#EF5350,#FFA726,#FFEE58,#66BB6A,#42A5F5,#5C6BC0, #7E57C2);
 }
 
 
+.marquee p {
+color:#fff;
+font-size:15pt;
+margin:0;
+padding-left:100%;
+display:inline-block;
+white-space:nowrap;
+	-webkit-animation-name:marquee;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-duration:8s;
+	-webkit-animation-iteration-count:infinite;
+	-moz-animation-name:marquee;
+	-moz-animation-timing-function:linear;
+	-moz-animation-duration:8s;
+	-moz-animation-iteration-count:infinite;
+	-ms-animation-name:marquee;
+	-ms-animation-timing-function:linear;
+	-ms-animation-duration:8s;
+	-ms-animation-iteration-count:infinite;
+	-o-animation-name:marquee;
+	-o-animation-timing-function:linear;
+	-o-animation-duration:8s;
+	-o-animation-iteration-count:infinite;
+	animation-name:marquee;
+	animation-timing-function:linear;
+	animation-duration:8s;
+	animation-iteration-count:infinite;
+}
+@-webkit-keyframes marquee {
+  from   { -webkit-transform: translate(0%);}
+  99%,to { -webkit-transform: translate(-100%);}
+}
+@-moz-keyframes marquee {
+  from   { -moz-transform: translate(0%);}
+  99%,to { -moz-transform: translate(-100%);}
+}
+@-ms-keyframes marquee {
+  from   { -ms-transform: translate(0%);}
+  99%,to { -ms-transform: translate(-100%);}
+}
+@-o-keyframes marquee {
+  from   { -o-transform: translate(0%);}
+  99%,to { -o-transform: translate(-100%);}
+}
+@keyframes marquee {
+  from   { transform: translate(0%);}
+  99%,to { transform: translate(-100%);}
+}
+
 div.image {
 text-align:center;
-margin-top:10%;
+margin-top:5%;
 }
 img:hover{
 position:relative;
