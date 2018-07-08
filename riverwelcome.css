@@ -21,11 +21,8 @@ h2{font-size:20pt;
 background-color:transparent;
 width:max-content;
 display:inline-block;
-margin-right: auto;//ここで中央寄せを指定する。
-  margin-left : auto;
-
-
-
+margin-right:０ auto;//ここで中央寄せを指定する。
+margin-left:０ auto;
 }
 h2:hover{
 	color:#fff;
