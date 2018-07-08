@@ -21,8 +21,8 @@ h2{font-size:20pt;
 background-color:transparent;
 width:max-content;
 display:inline-block;
-margin-left:0 auto;
-margin-right:0 auto;
+margin-left:auto;
+margin-right:auto;
 }
 h2:hover{
 	color:#fff;
