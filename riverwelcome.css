@@ -18,8 +18,20 @@ div { color:#FF69B4;
 
 h1 {font-size:75pt;}
 h2{font-size:20pt;
-}
+background-color:transparent;
+width:max-content;
+	  margin-right: auto;//ここで中央寄せを指定する。
+  margin-left : auto;
 
+
+
+}
+h2:hover{
+	color:#fff;
+	background-color:#000;
+
+
+}
 
 div.image {
 text-align:center;
